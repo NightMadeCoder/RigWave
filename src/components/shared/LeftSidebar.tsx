@@ -35,7 +35,7 @@ const LeftSidebar = () => {
             height={36}
           />
         </Link>
-
+        
         {isLoading || !user.email ? (
           <div className="h-14">
             <Loader />
